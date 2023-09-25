@@ -3,7 +3,7 @@
     padding: 0;
 }
 .section-margin{
-    margin-top: 130px;
+    margin-top: 100px;
 }
 img{
     max-width: 50%;
@@ -133,49 +133,51 @@ word-wrap: break-word;
     align-items: center;
 }
 
-
+.their-needs{
+    align-self: center;
+}
 
 
 .their-situation{
     display: flex;
-    justify-content:baseline;
+    justify-content:stretch;
     align-items: center;
     height: 700px;
-    gap: 20px;
+    gap: 50px;
 }
 
 .donation-image{
        height: 700px;
-       width: 1000px;
+       width: 1500px;
       
 }
 
 .my-updates{
-    text-align: center;
     
+    text-align: center;
 
 }
 input {
     height: 20px;
 }
-.contact{
-    text-align: center;
-}
+
 .email{
     width: 100%;
     border:0;
      background: #D9D9D9; 
     border-top-left-radius: 5px;
      border-top-right-radius: 5px;
+    
      padding:18px 30px;
 }
 .contact-form{
+   
     margin-top: 20px;
     display: flex;
-
-    justify-content: baseline;
-    flex-wrap: wrap;
-    align-items: center;
+    justify-content:baseline;
+   flex-wrap: wrap; 
+   align-items: center;
+    padding: 76px 100px;
     background: #FFF4D6;
 }
 
